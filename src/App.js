@@ -6,9 +6,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <button onClick={() => setCount(count + 1)}>Increment</button>
-        <button onClick={() => setCount(count - 1)}>Decrement</button>
-        Count: {count}
+        <button onClick={() => setCount((count + 1) * 2)}>Increment</button>
+        Multiplier: {count}
       </header>
     </div>
   );
