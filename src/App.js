@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -8,6 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <button onClick={() => setCount(count + 1)}>Increment</button>
+        <button onClick={() => setCount(count - 1)}>Decrement</button>
         Count: {count}
       </header>
     </div>
